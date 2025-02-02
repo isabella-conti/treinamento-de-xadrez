@@ -154,7 +154,7 @@ h2 {
 
 /* Estilos para a Seção de Preço - Promoção */
 #preco {
-    background-color: #ffedd5; /* Cor de fundo suave para destacar a seção */
+    background-color: #000000; /* Cor de fundo suave para destacar a seção */
     padding: 40px 20px;
     margin-top: 40px;
     border-radius: 10px;
@@ -168,7 +168,7 @@ h2 {
 
 .titulo-preco {
     font-size: 32px;
-    color: #d64c3c; /* Cor de destaque para o título */
+    color: #5271ff; /* Cor de destaque para o título */
     margin-bottom: 20px;
     font-weight: bold;
     text-transform: uppercase;
@@ -188,21 +188,21 @@ h2 {
 
 .preco-antigo {
     font-size: 24px;
-    color: #999;
+    color: #e40202;
     text-decoration: line-through;
     margin-bottom: 10px;
 }
 
 .preco-promocional {
     font-size: 28px;
-    color: #d64c3c; /* Cor para preço promocional */
+    color: #5271ff; /* Cor para preço promocional */
     font-weight: bold;
     margin-top: 10px;
 }
 
 .preco-mensal {
     font-size: 22px;
-    color: #ff5722; /* Cor vibrante para destacar */
+    color: #768be9; /* Cor vibrante para destacar */
     margin: 10px 0;
 }
 
@@ -224,7 +224,7 @@ h2 {
 }
 
 .btn-principal {
-    background-color: #d64c3c;
+    background-color: #5271ff;
     color: white;
     padding: 15px 30px;
     text-decoration: none;
