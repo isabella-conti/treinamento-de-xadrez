@@ -153,34 +153,80 @@ h2 {
     text-align: center;
 }
 
-/* Seção Contato */
-.contato {
-    padding: 50px 20px;
-    background: white;
+#preco {
+    background-color: #030303;
+    padding: 40px 20px;
+    margin-top: 40px;
+    border-radius: 10px;
 }
 
-form {
-    max-width: 600px;
+#preco .container {
+    width: 80%;
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+    text-align: center;
 }
 
-input, textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+.titulo-preco {
+    font-size: 32px;
+    color: #5271ff;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
-button {
-    background: #5a0c7a;
+.detalhes-preco {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.preco .btn {
+    display: inline-block;
+    background: #5271ff;
     color: white;
-    padding: 10px;
-    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
     border-radius: 5px;
-    cursor: pointer;
+    margin-top: 20px;
+}
+
+.desconto {
+    margin-bottom: 20px;
+}
+
+.preco-antigo {
+    font-size: 24px;
+    color: #fb1a1a;
+    text-decoration: line-through;
+    margin-bottom: 10px;
+}
+
+.preco-promocional {
+    font-size: 28px;
+    color: #5271ff;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.preco-mensal {
+    font-size: 22px;
+    color: #5271ff;
+    margin: 10px 0;
+}
+
+.mensalidade-pizza {
+    font-size: 18px;
+    font-style: italic;
+    color: #333;
+}
+
+.descricao {
+    font-size: 18px;
+    color: #555;
+    margin-top: 15px;
+    font-weight: bold;
 }
 
 /* Rodapé */
