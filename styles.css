@@ -1,0 +1,192 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Hero Section */
+.hero {
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero .logo {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    display: inline-block;
+    background: #5a0c7a;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.cta {
+    display: flex;
+    justify-content: center; /* Centraliza o botão dentro da div */
+    width: 100%;
+}
+/* Seção Sobre */
+.sobre {
+    display: flex;
+    align-items: center;
+    padding: 50px 20px;
+    background: white;
+}
+.sobre .texto h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.sobre .introducao {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #06196f;
+    margin-bottom: 20px;
+}
+
+.depoimentos .btn {
+    display: inline-block;
+    background: #5a0c7a;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.sobre .texto {
+    flex: 1;
+    padding-right: 20px;
+}
+.sobre .btn {
+    display: inline-block;
+    background: #5a0c7a;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.imagem-treinamento {
+    width: 100%;
+    max-width: 1000x;
+    margin-top: 30px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.imagem-exercicio {
+    width: 100%;
+    max-width: 800px; /* Corrigido o erro de '500x' para '500px' */
+    margin: 30px auto; /* Margin auto para centralizar a imagem */
+    display: block; /* Faz a imagem se comportar como um bloco */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Seção Serviços */
+.servicos {
+    background: #5a0c7a;
+    color: white;
+    padding: 50px 20px;
+}
+
+.servicos .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.servico {
+    background: white;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.servico img {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+/* Seção Depoimentos */
+.depoimentos {
+    padding: 50px 20px;
+    background: #f4f4f4;
+}
+
+.slider {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+}
+
+.depoimento {
+    min-width: 300px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Seção Contato */
+.contato {
+    padding: 50px 20px;
+    background: white;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: #5a0c7a;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 20px;
+}
